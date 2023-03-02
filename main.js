@@ -10,7 +10,7 @@ const getRandomColor = (()=>{
 const changeColor = document.getElementById("changeColor");
 const btn = document.getElementById("btn");
 
-btn.addEventListener("click", (e) => {
+btn.addEventListener("click", () => {
     changeColor.style.backgroundColor = getRandomColor(); // take random color
 });
 
